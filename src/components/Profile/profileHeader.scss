@@ -1,0 +1,16 @@
+.profileHeader{
+    .card{
+        .deleteProfile{
+            position: absolute;
+            right: 0;
+            bottom: 5px;
+            color: #ff0000c4 !important;
+        }
+
+        img.avatar{
+            width: 150px !important;
+            object-fit: cover;
+            height: 150px !important;
+        }
+    }
+}

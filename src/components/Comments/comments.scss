@@ -1,0 +1,87 @@
+.list-comment{
+    img.avatar{
+        width: 25px;
+        height: 25px;
+        object-fit: cover;
+    }
+
+    .dropMenu{
+        right: 0;
+        position: absolute;
+
+        button{
+            background: white !important;
+            color: var(--tertiaire-color);
+            font-size: 15px;
+            border: 0;
+            padding: 0 20px;
+
+            &::after{
+                display: none;
+            }
+
+            &:focus{
+                box-shadow: 0 0 0 .1rem rgba(255, 255, 255, 0.5) !important;
+            }
+        }
+    }
+
+    .like{
+        cursor: pointer;
+
+        .liked{
+            color: #4e516687;
+        }
+    }
+
+    .nblike{
+        cursor: progress;
+    }
+
+    .onHover{
+        position: absolute;
+        right: -20px;
+        min-width: 300px;
+        z-index: 2;
+        padding: 12px;
+        line-height: 25px;
+        border: 1px solid #6f718245;
+        background: #6f71821f;
+    }
+}
+
+.add-comment{
+    img{
+        width: 65px;
+        height: 65px;
+        object-fit: cover;
+    }
+
+    button{
+        margin-left:auto;
+        background: var(--tertiaire-color);
+        border: none;
+    }
+
+    .imageUpload{
+        display: none;
+    }
+
+    label{
+        cursor: pointer;
+        color: var(--main-color);
+        margin-right: 20px;
+    }
+
+    li {
+        span{
+        margin-left: 10px;
+        font-size: 14px;
+        }
+
+        svg{
+            cursor: pointer;
+        }
+    }
+
+}

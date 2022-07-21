@@ -1,0 +1,9 @@
+.home{
+    background-color: var(--bs-home);
+    overflow: hidden;
+    min-height: 100vh;
+
+    .newsfeed{
+        margin-top: 100px;
+    }
+}

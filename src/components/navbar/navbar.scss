@@ -1,0 +1,75 @@
+@import "../../App.scss";
+
+.navbar {
+  width: 100%;
+  background: var(--bs-home);
+  padding: 20px !important;
+  position: fixed !important;
+  z-index: 1010;
+  top: 0;
+  &.scrolled {
+    padding-bottom: 0 !important;
+  }
+
+  svg{
+    margin-right: 10px;
+  }
+
+  .container {
+    background: var(--tertiaire-light-color);
+    border-radius: 35px;
+    padding: 3px 33px;
+
+    .navbar-brand{
+      img {
+        height: 30px;
+        margin-right: 10px;
+      }
+      .logo-text{
+        font-size: 18px;
+        margin-right: 35px;
+      }
+    }
+
+    .navbar-nav{
+      width: 100%;
+      font-size: 15px;
+
+      .profile{
+        margin-left: auto;
+      }
+    }
+
+    .nav-link {
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+      color: var(--bs-home) !important;
+
+      img.thumbnail-image {
+        width: 30px;
+        height: 30px;
+        border-radius: 20px;
+        object-fit: cover;
+        cursor: pointer;
+      }
+
+    }
+  }
+
+  @include smallX {
+    padding: 0 !important;
+    .container{
+      border-radius: 0;
+      max-width: 100%;
+
+      .navbar-nav .profile {
+        margin-left: 0 !important;
+      }
+
+      .navbar-toggler{
+        margin-left: auto;
+      }
+    }
+  }
+}

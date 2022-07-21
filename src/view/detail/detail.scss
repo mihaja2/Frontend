@@ -1,0 +1,16 @@
+.detail{
+    .row.detailContenu{
+        margin-top: 100px;
+        
+        width: 100%;
+
+        img{
+            max-height: 100% !important;
+        }
+
+        .comments{
+            background: var(--secondary-light-color) !important;
+            border: 0;
+        }
+    }
+}
