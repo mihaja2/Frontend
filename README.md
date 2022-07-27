@@ -2,8 +2,7 @@
 # Installation
 
 Clonnez les fichiers du répertoire "Frontend" du Github.
-Mettez-les dans un répertoire "Projet/Frontend" de votre ordinateur 
-
+# Je les ai effacés à titre de précaution car le site est accessible par tout le monde
 Dans ce répertoire "Frontend", lancez 
 
 # Je les ai effacés à titre de précaution car le site est accessible par tout le monde
