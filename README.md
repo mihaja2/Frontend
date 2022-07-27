@@ -6,11 +6,11 @@ Mettez-les dans un répertoire "Projet/Frontend" de votre ordinateur
 
 Dans ce répertoire "Frontend", lancez 
 
-# `npm install`
+# Je les ai effacés à titre de précaution car le site est accessible par tout le monde
 
 Toujours dans ce même répertoire "Frontend", lancez la commande suivante pour démarrer le projet :
 
-# `npm start`
+# Je les ai effacés à titre de précaution car le site est accessible par tout le monde
 
 Si ce n'est pas encore fait automatiquement, ouvrez le navigateur et faites 
-# http://localhost:3000/login
+# Je les ai effacés à titre de précaution car le site est accessible par tout le monde
